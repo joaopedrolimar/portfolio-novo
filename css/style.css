@@ -8,6 +8,14 @@ header{
     padding: 10px 20px;
 }
 
+.logo{
+    transition: transform 0.3s linear;
+}
+
+.logo:hover{
+    transform: scale(1.2);
+}
+
 nav{
     text-align: right;
 }
@@ -27,9 +35,10 @@ a:before{
     content: "";
     background-color: #7E84F2;
     height: 10px;
-    width: 10px;
+    width: 10px; 
+    border-radius: 100%;
     margin-right: 10px;
-}
+} 
 
 
 #button{
@@ -38,12 +47,12 @@ a:before{
     box-shadow: 5px 5px 0 #999090;
     padding: 18px 20px;
     margin: 0;
+    transition: transform 0.3s linear;
 
 }
 
 #button:hover{
     background-color: #A3BFFF;
     color: #283059;
-    transition: 0.9s;
-
+    transform: scale(1.05);
 }

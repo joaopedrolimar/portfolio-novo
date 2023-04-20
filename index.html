@@ -9,16 +9,18 @@
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@500&family=Press+Start+2P&display=swap" rel="stylesheet">
 
     <link rel="stylesheet" href="css/reset.css">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/index.css">
     <link rel="stylesheet" href="css/components/title.css">
     <link rel="stylesheet" href="css/components/subtitle.css">
     <link rel="stylesheet" href="css/components/box.css">
     <link rel="stylesheet" href="css/components/button.css">
     <link rel="stylesheet" href="css/components/action.css">
     <link rel="stylesheet" href="css/components/header.css">
+    <link rel="stylesheet" href="css/components/banner.css">
+    <link rel="stylesheet" href="css/components/section.css">
 
 
 <body>
@@ -34,16 +36,41 @@
         </nav>
     </header>
     
-    <div id="box">
-        <h1>João Pedro</h1>
-        <h2>FrontEnd Developer</h2>
-    </div>
+    <section class="banner">
 
-    <a class="button" href = "" lang="en">Download CV</a>
+        <div class="wrapper">
 
-    <a class="button" href = "">Contatos</a>
+            <div class="box">
+                <h1 class="title" >João Pedro</h1>
+                <h2 class="subtitle">FrontEnd Developer</h2>
+            </div>
 
-    <button class="button" >Coiso</button>
+            <div class="navigation">
+                <a class="button" href = "" lang="en">Download CV</a>
+                <a class="button" href = "">Contatos</a>
+            </div>
+
+        </div>
+
+    </section>
+
+    <section class="section">
+
+        <h2 class="title -second">Skills</h2>
+
+        <dl class="skills"> <!--description list-->
+            <dt>HTML</dt>
+            <dd class="icoon">
+                <img src="/assets/img/ico_html5.png" alt="Imagem html">
+            </dd>
+            <dd class="barra">
+                <progress max="100" value="70">70%</progress>
+            </dd>
+        </dl>
+
+
+    </section>
+ 
 
 
 </body>

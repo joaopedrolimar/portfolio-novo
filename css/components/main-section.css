@@ -1,0 +1,22 @@
+.main-section{
+    background-color: #283059;
+    padding-top: 50px;
+    padding-bottom: 100px;
+    border-bottom: 10px solid #999090;
+}
+
+.main-section .main-title{
+    margin-bottom: 60px;
+}
+
+.main-section.-background-black{
+    background-color: black;
+}
+
+.main-section.-border-rosa{
+    border-color: #999090;
+}
+
+.main-section.main-section.-background-roxo{
+   background-color:#05145C;
+}

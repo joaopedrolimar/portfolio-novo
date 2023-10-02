@@ -1,8 +1,9 @@
-.header{
+.main-header{
+    font-family: 'Press Start 2P', sans-serif;
     display: flex;
     justify-content: space-between;
     background-color: #283059;
-    border-bottom: 10px solid #999090;
+    border-bottom: 10px solid #7E84F2;;
     padding: 10px 20px;
 }
 

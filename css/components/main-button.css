@@ -1,4 +1,4 @@
-.button{
+.main-button{
     display: inline-block;
     background-color: #7E84F2;
     box-shadow: 5px 5px 0 #999090;
@@ -8,11 +8,22 @@
     text-decoration: none;
     font-size: 20px;
     color: #fff;
+    cursor: pointer;
 
 }
 
-.button:hover{
+.main-button:hover{
     background-color: #A3BFFF;
     color: #283059;
     transform: scale(1.05);
+}
+
+.main-button.-full{
+    width: 100%;
+    border: none;
+    font-size: 30px;
+}
+
+.main-button.-full:hover{
+    transform: scale(1.01);
 }

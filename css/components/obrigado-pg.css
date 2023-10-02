@@ -1,0 +1,27 @@
+.container-obrigado{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+}
+
+.wrapper-obgd{
+    font-family: 'Press Start 2P', sans-serif;
+    height: 200px;
+    width: 200px;
+}
+
+.wrapper-obgd h1{
+    color: #fff;
+    margin-bottom: 40px;
+    display: flex;
+    justify-content: center;
+}
+
+.wrapper-obgd a{
+    display: flex;
+    justify-content: center;
+    
+}
+

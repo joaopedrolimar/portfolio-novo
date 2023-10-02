@@ -1,0 +1,22 @@
+.card-project{
+    background-color: #fff;
+    width: 280px;
+    height: 280px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 8px 8px #999090;
+}
+
+.card-project.-background-color{
+    background-color: #4C5B84;
+
+}
+
+.card-project .logo{
+    width: 300px;
+}
+
+.card-project .logo.-x-men{
+    width: 200px;
+}

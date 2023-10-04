@@ -1,0 +1,107 @@
+@media (max-width:1024px) {
+
+    .main-header{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .main-header .logo{
+        width: 100px;
+        padding: 10px;
+    }
+
+    .main-header .main-action{
+        padding-bottom: 5px;
+    }
+
+    .main-header .main-button{
+        display: flex;
+        align-items: center;
+        margin: 20px;
+        justify-content: center;
+    }
+
+    .main-banner{
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center; 
+        width: 100%;
+        height: 100vh;
+    }
+    
+    .main-banner .wrapper{
+        max-width: 80%;
+        height: auto;
+    }
+    
+    .main-banner .main-box{
+        margin-bottom: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        line-height: 3.5em;
+    }
+    
+    .main-box .main-title{
+        font-size: 30px;
+    }
+
+    .main-box .main-subtitle{
+        font-size: 20px;
+    }
+
+    
+    .main-banner .navigation{
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+    }
+    
+    .main-banner .main-button{
+        margin-top:40px;
+        text-align: center;
+        line-height: 1.5em
+        
+    }
+
+    .wrapper-skill .title{
+        line-height: 1.5em
+    }
+
+    .wrapper-skill .progress-bar{
+        width: 200px;
+    }
+
+    .wrapper-skill .skill-tec{
+        margin-bottom: 40px;
+        margin-left: 20px;
+    }
+
+    .wrapper-card {
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+
+     .main-title.-second {
+        font-size: 35px;
+    }
+
+    .card-project{
+        margin-top: 50px;
+    }
+
+    .node-card {
+       margin-left: 10px;
+    }
+
+    .main-description {
+        color: #fff;
+        font-size: 15px;
+        font-weight: 300px;
+        line-height: 1.4;
+        
+    }
+}
+
